@@ -7,15 +7,17 @@ body{
     background-color: aliceblue;
     box-sizing: border-box;
     font-family: sans-serif;
-    width: 100%;
+    /* width: auto; */
+
 }
 .main{
     display: flex;
-    width: 1002px;
+    /* width: 100wh; */
 }
 .nav-bar{
     background-color:rgb(56, 75, 94);
     height: 51px;
+    /* width: 100%; */
     color: antiquewhite;
 }
 .nav-box a{
@@ -108,7 +110,7 @@ body{
     font-size: 18px;
     height: 51px;
     line-height: 27px;
-    width: 71px;
+    /* width: 71px; */
     padding: 12px 24px 12px 24px;
     word-spacing: 0px;
     align-items: center;
@@ -132,7 +134,7 @@ body{
 .leftcontainer{
     margin-left: 10px;
     height: 1110px;
-    width: 265px;
+    /* width: 265px; */
     margin-left: 5px;
 }
 .container{
@@ -247,7 +249,7 @@ margin-bottom: 10rem;
 }
 .w3-row{
     height: 301.688px;
-    width: 279.234px;
+    /* width: 279.234px; */
 }
 .w3-half{
     display: block;
