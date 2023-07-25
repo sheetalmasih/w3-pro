@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="nav-box">
+      <a href="#" class="logo"><i class="fa fa-home"></i>Logo</a>
+      <a href="#" class="icon" title="News"><i class="fa fa-globe"></i></a>
+      <a href="#" class="icon" title="Account Settings"><i class="fa fa-user"></i></a>
+      <a href="#" class="icon" title="Messages"><i class="fa fa-envelope"></i></a>
+      <a class="notification" title="Notifications"><i class="fa fa-bell"></i><span
+          class="bell-color">3</span></a>
+        <div class="bar-block" style="width:300px">
+          <ul>
+            <li> <a href="#">One new friend request></a></li>
+            <li> <a href="#">John Doe posted on your wall></a></li>
+            <li> <a href="#"> Jane likes your post</a></li>
+          </ul>
+        </div>
+      <a href="#" class="account" title="My Account">
+        <img src="/photos/pro.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+      </a>
+    </div>
+  </div>
+  <div class="main">
+  <!-- left side container -->
+  <div class="leftcontainer">
+    <!-- Profile -->
+    <div class="w3-card">
+      <div class="container">
+       <h4 class="center">My Profile</h4>
+       <p class="photo"><img src="/photos/pro1.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+       <hr>
+       <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
+       <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> London, UK</p>
+       <p> <i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988</p>
+      </div>
+    </div>
+    <br>
+    
+    <!-- Accordion -->
+    <div class="box2">
+      <div class="container2">
+        <button onclick="myFunction('Demo1')" class="drop"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+        <div id="Demo3" class="w3-hide w3-container">
+          <p class="some">Some text..</p>
+        </div>
+        <button onclick="myFunction('Demo2')" class="drop"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+        <div id="Demo3" class="w3-hide w3-container">
+          <p class="some">Some other text..</p>
+        </div>
+        <button onclick="myFunction('Demo3')" class="drop"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+        <div id="Demo3" class="w3-hide w3-container">
+       <div class="photopadding">
+       <br>
+         <div class="w3-half">
+           <img src="/photos/lights.jpg" style="width:100%" class="phopadding">
+         </div>
+         <div class="w3-half">
+           <img src="/photos/nature.jpg" style="width:100%" class="phopadding">
+         </div>
+         <div class="w3-half">
+           <img src="/photos/mountains.jpg" style="width:100%" class="phopadding">
+         </div>
+         <div class="w3-half">
+           <img src="/photos/forest.jpg" style="width:100%" class="phopadding">
+         </div>
+         <div class="w3-half">
+           <img src="/photos/nature.jpg" style="width:100%" class="phopadding">
+         </div>
+         <div class="w3-half">
+           <img src="/photos/snow.jpg" style="width:100%" class="phopadding">
+         </div>
+       </div>
+        </div>
+      </div>      
+    </div>
+    <br>
+    
+    <!-- Interests --> 
+    <div class="box3">
+        <p>Interests</p>
+        <p>
+          <span class="d5">News</span>
+          <span class="d4">W3Schools</span>
+          <span class="d3">Labels</span>
+          <span class="d2">Games</span>
+          <span class="d1">Friends</span>
+          <span class="game">Games</span>
+          <span class="l1">Friends</span>
+          <span class="l2">Food</span>
+          <span class="l3">Design</span>
+          <span class="l4">Art</span>
+          <span class="l5">Photos</span>
+        </p>
+    </div>
+    <br>
+    
+    <!-- Alert Box -->
+    <div class="box4">
+      <span onclick="this.parentElement.style.display='none'" class="container4">
+        <i id="cross" class="fa fa-remove"></i>
+      </span>
+      <p class="hey"><strong>Hey!</strong></p>
+      <p>People are looking at your profile. Find out who.</p>
+    </div>
+  </div>
+  <!-- middle column -->
+  <div class="middle-container">
+    <!-- middle1 -->
+          <div class="middle1">
+            <h6 class="social">Social Media template by w3.css</h6>
+            <p class="feelling">Status: Feeling Blue</p>
+            <button type="button" class="post"><i class="fa fa-pencil"></i>Post</button> 
+          </div>
+    <!-- middle2 -->
+    <div class="middle2"><br>
+      <img src="/photos/pro.png" alt="Avatar" class="midphoto" style="width:60px">
+      <span class="min1">1 min</span>
+      <h4>John Doe</h4><br>
+      <hr class="w3-clear">
+      <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="photobox">
+          <div class="photos">
+            <img src="/photos/lights.jpg" alt="Northern Lights" class="bottom">
+          </div>
+          <div class="photos">
+            <img src="/photos/nature.jpg" alt="Nature" class="bottom">
+          </div>
+        </div>
+      <button type="button" class="like"><i class="fa fa-thumbs-up"></i>Like</button> 
+      <button type="button" class="comment"><i class="fa fa-comment"></i>Comment</button> 
+    </div>
+    
+    <div class="middle3"><br>
+      <img src="/photos/photo3.png" alt="Avatar" class="midphoto" style="width:60px">
+      <span class="min1">16 min</span>
+      <h4>Jane Doe</h4><br>
+      <hr class="w3-clear">
+      <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button type="button" class="like"><i class="fa fa-thumbs-up"></i>Like</button> 
+      <button type="button" class="comment"><i class="fa fa-comment"></i> &nbsp;Comment</button> 
+    </div>  
+
+    <div class="middle4"><br>
+      <img src="/photos/photo4.png" alt="Avatar" class="midphoto" style="width:60px">
+      <span class="min1">32 min</span>
+      <h4>Angie Jane</h4><br>
+      <hr class="w3-clear">
+      <p id="pera">Have you seen this?</p>
+      <img src="/photos/nature.jpg" style="width:100%" class="w3-margin-bottom">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button type="button" class="like"><i class="fa fa-thumbs-up"></i>Like</button> 
+      <button type="button" class="comment"><i class="fa fa-comment"></i>Comment</button> 
+    </div> 
+  </div>
+  <!-- right column -->
+  <div class="right-container">
+    <div class="rightside">
+      <div class="right1">
+        <p class="comming">Upcoming Events:</p>
+        <img class="upcomming" src="/photos/forest .jpg" alt="Forest">
+        <p class="holiday"><strong>Holiday</strong></p>
+        <p class="friday">Friday 15:00</p>
+        <p class="inform"><button class="info">Info</button></p>
+      </div>
+    </div>
+    <br>
+    
+    <div class="right-container2">
+      <div class="right2">
+        <p class="friend">Friend Request</p>
+        <img class="jane" src="/photos/avatar6.png" alt="Avatar"><br>
+        <span>Jane Doe</span>
+        <div class="w3-row w3-opacity">
+          <div class="w3-half">
+            <button class="true" title="Accept"><i class="fa fa-check"></i></button>
+          </div>
+          <div class="wrong">
+            <button class="false" title="Decline"><i class="fa fa-remove"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <div class="ads">
+      <p class="boxads">ADS</p>
+    </div>
+    <br>
+    
+    <div class="bug">
+      <p class="kida"><i class="fa fa-bug w3-xxlarge"></i></p>
+    </div>
+    
+  <!-- End Right Column -->
+  </div>
+</div>
+</body> 
+</html>
