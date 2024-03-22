@@ -19,11 +19,13 @@ body{
     height: 51px;
     /* width: 100%; */
     color: antiquewhite;
+    position:fixed;
 }
 .nav-box a{
     color:black;
     display: inline-flex;
     padding: 20px;
+   
 }
 .fa{
     font-family: FontAwesome;
